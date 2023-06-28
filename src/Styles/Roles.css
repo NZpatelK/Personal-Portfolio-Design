@@ -1,0 +1,69 @@
+.role-rotating-text {
+    margin-top: 20px;
+    font-size: 2.5em;
+    z-index: 99;
+}
+
+.role-rotating-text .role-name {
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+}
+
+.role-rotating-text .role-name .word {
+    position: absolute;
+    display: flex;
+    opacity: 0;
+}
+
+.role-rotating-text .role-name .word .letter {
+    transform-origin: center center 25px;
+}
+
+.role-rotating-text .role-name .word .letter.out {
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+
+.role-rotating-text .role-name .word .letter.in {
+    transition: 0.38s ease;
+}
+
+.role-rotating-text .role-name .word .letter.behind {
+    transform: rotateX(-90deg);
+}
+
+.w-1 {
+    color: #ff1178 !important;
+    filter: drop-shadow(0 0 10px #ff1178);
+}
+
+.w-2 {
+    color: #fe0000 !important;
+    filter: drop-shadow(0 0 10px #fe0000);
+}
+
+.w-3 {
+    color: #01fff4 !important;
+    filter: drop-shadow(0 0 10px #01fff4);
+}
+
+.w-4 {
+    color: #7cff01 !important;
+    filter: drop-shadow(0 0 10px #7cff01);
+}
+
+.w-5 {
+    color: #fe0000 !important;
+    filter: drop-shadow(0 0 10px #fe0000);
+}
+
+
+/* tablet */
+@media screen and (max-width: 1459px) {
+
+    .role-rotating-text{
+        margin-top: 20px;
+        font-size: 2em;
+    }
+}
