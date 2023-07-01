@@ -6,6 +6,7 @@ import linkedln from './assets/linkedln.png';
 import BackgroundRain from './Components/BackgroundRain';
 import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
+import Remind from './Components/Remind';
 
 interface Movatie {
   title: string;
@@ -44,15 +45,13 @@ function App() {
       {/* ----------------------------------------------- */}
 
       <section className="full-section home aboutMe">
-        <AboutMe/>
+        <AboutMe />
       </section>
 
       {/* ----------------------------------------------- */}
 
       <section className="full-section remind">
-        <h2>Remind</h2>
-        <p>I would like to remind you that whenever you encounter challenging situations, this message aims to provide you with help and inspiration. It is a concise message, but I hope it proves beneficial to you. As you scroll down, you will discover five sections of inspiring and supportive messages. Additionally, you can refresh the page to receive an automatic display of a new message.</p>
-        <a href={'#m-0'} className="next">Next</a>
+        <Remind />
       </section>
 
       {movatieWords.map((word, index) => {
@@ -61,7 +60,7 @@ function App() {
           <section className="full-section movtivational" key={index} id={'m-' + index}>
             <h2>{word.title}</h2>
             <p>{word.message}</p>
-            <a href={ index < movatieWords.length - 1 ? '#m-' + (index + 1) : '#service'} className="next">Next</a>
+            <a href={index < movatieWords.length - 1 ? '#m-' + (index + 1) : '#service'} className="next">Next</a>
           </section>
         )
 

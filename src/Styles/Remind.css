@@ -1,0 +1,62 @@
+.remind h2 {
+
+    font-size: 6em;
+    /* filter: drop-shadow(0 0 0.75rem #fff); */
+    filter: drop-shadow(0 0 0.85rem #696767);
+    color: #9e9c9cba;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  
+  }
+  
+  .remind p {
+    text-align: justify;
+    width: 60%;
+    font-size: 2em;
+  }
+
+  .remind a {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    font-size: 2em;
+    transform: translateX(-50%);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    backdrop-filter: blur(60px);
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 0.5s;
+  }
+
+  remind a:hover {
+    background-color: #ffffff70;
+  }
+  
+  
+  /* tablet */
+  @media screen and (max-width: 1459px) {
+  
+    .remind p {
+      font-size: 1.8em;
+      width: 95%;
+    }
+  
+  
+  }
+  
+  /* Mobile */
+  
+  @media screen and (max-width: 1000px) {
+  
+    .remind {
+      height: 1000px;
+    }
+  
+  }
