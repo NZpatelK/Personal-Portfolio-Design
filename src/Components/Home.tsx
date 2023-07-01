@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Home.css';
+import '../Styles/Home-AboutMe.css';
 import vid2 from '../assets/sample1.webm';
 import Roles from './Roles';
 
