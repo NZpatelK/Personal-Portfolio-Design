@@ -1,5 +1,4 @@
 /* Desktop */
-
 .home {
     flex-direction: row;
   }
@@ -15,7 +14,6 @@
   .home h2 {
     font-size: 5rem;
     font-weight: 900;
-    /* color: #07ff5ef4; */
   }
   
   .home h2 span {
@@ -75,7 +73,9 @@
   
   
   }
-  
+
+
+  /* Mobile */
   @media screen and (max-width: 1000px) {
   
     .full-section {
