@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import { AboutMe } from './Data/AboutMe';
 import { Moivate } from './Data/motivate';
 import { Service } from './Data/service';
 import linkedln from './assets/linkedln.png';
 import BackgroundRain from './Components/BackgroundRain';
 import Home from './Components/Home';
+import AboutMe from './Components/AboutMe';
 
 interface Movatie {
   title: string;
@@ -44,10 +44,7 @@ function App() {
       {/* ----------------------------------------------- */}
 
       <section className="full-section home aboutMe">
-        <div className="headerSection">
-          <h2>About Me </h2>
-          <p>{AboutMe.message} </p>
-        </div>
+        <AboutMe/>
       </section>
 
       {/* ----------------------------------------------- */}
