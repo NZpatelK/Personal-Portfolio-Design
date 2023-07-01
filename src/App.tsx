@@ -1,13 +1,11 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import vid from './assets/sample.webm';
-import vid2 from './assets/sample1.webm';
 import { AboutMe } from './Data/AboutMe';
 import { Moivate } from './Data/motivate';
 import { Service } from './Data/service';
 import linkedln from './assets/linkedln.png';
 import BackgroundRain from './Components/BackgroundRain';
-import Roles from './Components/Roles';
+import Home from './Components/Home';
 
 interface Movatie {
   title: string;
@@ -40,23 +38,12 @@ function App() {
       {/* ----------------------------------------------- */}
 
       <section className="full-section home">
-        <div className="headerSection">
-          <h2><span>Hey,</span><br /> I'm Karan Patel</h2>
-          <Roles />
-          {/* <p>This is the content of section 1. </p> */}
-        </div>
-        <div className="videoSection">
-          <video autoPlay muted src={vid2} className='vid' />
-        </div>
-
+        <Home />
       </section>
 
       {/* ----------------------------------------------- */}
 
       <section className="full-section home aboutMe">
-        {/* <div className="videoSection">
-          <video autoPlay muted src={vid2} className='vid two' />
-        </div> */}
         <div className="headerSection">
           <h2>About Me </h2>
           <p>{AboutMe.message} </p>
