@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import { Moivate } from './Data/motivate';
-import { Service } from './Data/service';
 import linkedln from './assets/linkedln.png';
 import BackgroundRain from './Components/BackgroundRain';
 import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
 import Remind from './Components/Remind';
+import Service from './Components/Service';
 
 interface Movatie {
   title: string;
@@ -38,21 +38,27 @@ function App() {
 
       {/* ----------------------------------------------- */}
 
+      {/* Homme Section */}
       <section className="full-section home">
         <Home />
       </section>
 
       {/* ----------------------------------------------- */}
+      {/* About Me Section */}
 
       <section className="full-section home aboutMe">
         <AboutMe />
       </section>
 
       {/* ----------------------------------------------- */}
+      {/* Remind Section */}
 
       <section className="full-section remind">
         <Remind />
       </section>
+
+      {/* ----------------------------------------------- */}
+      {/* Movtivation Sections */}
 
       {movatieWords.map((word, index) => {
 
@@ -67,35 +73,15 @@ function App() {
       })};
 
       {/* ----------------------------------------------- */}
+      {/* Service Section */}
 
       <section className="full-section service" id='service'>
-        <h2>Serivce</h2>
-        <div className="ServiceContainer">
-
-          {Service.map((service, index) => {
-
-            return (
-              <div className="ServiceCard" key={index}>
-                <div className="ServiceContent">
-                  <h3>{service.Description}</h3>
-                  <ul>
-                    {service.Features.map((feature, index) => {
-                      return (
-                        <li key={index}>{feature}</li>
-                      )
-                    })}
-                  </ul>
-                  <h4>FREE</h4>
-                </div>
-              </div>
-            );
-
-          })}
-        </div>
-        {/* <p>This is the content of section 3.</p> */}
+        <Service/>
+       
       </section>
 
       {/* ----------------------------------------------- */}
+      {/* Footer Section */}
 
       <section className="full-section">
         <div>
