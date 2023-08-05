@@ -1,46 +1,11 @@
-# Getting Started with Create React App
+# Background colourful rain animation website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I am thrilled to introduce a meticulously crafted website that boasts a captivating background animation, simulating a mesmerizing display of colorful raindrops ☔🌈. This digital platform not only serves as a canvas to exhibit my technical prowess 👩‍💻🚀, but also showcases my creative flair and innovative design sensibilities in shaping user experiences ✨🎨.
 
-## Available Scripts
+At the heart of this website is a dynamic and enchanting scene, where vibrant raindrops cascade gracefully, infusing the interface with a sense of vitality and energy 💫⚡. This animation not only adds an aesthetic dimension but also exemplifies my dedication to merging technology with artistry 🖼️🤖.
 
-In the project directory, you can run:
+Through this project, I aimed not only to showcase my skills but also to demonstrate my deep-rooted passion for combining functionality and creativity seamlessly 🎭🔧. The user interface itself stands as a testament to my commitment to user-centric design, where every element has been thoughtfully placed to ensure a seamless and engaging interaction 📱✨.
 
-### `npm start`
+I am excited to invite you to witness a glimpse of the magic ✨✨ through the demonstration video of my website. Your support and feedback are invaluable as I continue to evolve and refine my craft 🙌🤝.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to share the demonstration video by clicking on this link. Thank you for taking the time to explore my creation 🌟🙏.
