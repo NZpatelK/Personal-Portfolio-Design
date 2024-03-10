@@ -11,4 +11,4 @@ I am excited to invite you to witness a glimpse of the magic ✨✨ through the 
 Feel free to share the demonstration video by clicking on this link. Thank you for taking the time to explore my creation 🌟🙏.
 
 #### Click on the video icon to view the demonstration video of my application. 👀
-[<img src='https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/512/external-video-news-xnimrodx-lineal-gradient-xnimrodx.png' width='100'>](https://www.linkedin.com/posts/karan-h-patel_portfolio-webdevelopment-personalbranding-activity-7079632786764021760-JnLz?utm_source=share&utm_medium=member_desktop)
+https://nzpatelk.github.io/Personal-Portfolio-Design/
