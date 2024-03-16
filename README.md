@@ -10,5 +10,4 @@ I am excited to invite you to witness a glimpse of the magic ✨✨ through the 
 
 Feel free to share the demonstration video by clicking on this link. Thank you for taking the time to explore my creation 🌟🙏.
 
-#### Click on the video icon to view the demonstration video of my application. 👀
-https://nzpatelk.github.io/Personal-Portfolio-Design/
+#### Preview: https://nzpatelk.github.io/Personal-Portfolio-Design/
